@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-    int main(){
+int main(){
 
 char codigo[50];
 char estado[50];
@@ -16,9 +16,7 @@ scanf("%c", &estado);
 printf("Insira o Código da Cidade: \n");
 scanf("%d", &codigo);
 
-printf("Insira o Nome da cidade: \n");
-scanf("%c", &nome);
-
+printf("Insira o Nome da cidade: \n"); 
 printf("Insira a população: \n");
 scanf("%d", &população);
 
@@ -32,15 +30,6 @@ printf("Insira o Números de Pontos Turísticos: \n");
 scanf("%d", &numeros);
 
  
-
-
 return 0;
 
-
-
 }
-
-
-
-
-
